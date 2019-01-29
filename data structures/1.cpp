@@ -49,13 +49,6 @@ public:
     void in(int i,int x){
     *(data+i)=x;
     }
-    void& move(int k){
-    if(k>0){
-        double* temp = new temp;
-        temp = this->data;
-
-    }
-    }
     void push_back(double x){
     if (size>=cap){
     cap*=2;
